@@ -1,5 +1,8 @@
 {
-  "name": "test",
+  "name": "Test1234",
   "version": "1.0.0",
-  "dependencies": {}
+  "dependencies": {
+    "aws-sdk": "2.176.0",
+    "@slappforge/slappforge-sdk": "0.0.3"
+  }
 }
