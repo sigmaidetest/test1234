@@ -35,7 +35,7 @@ exports.handler = function (event, context, callback) {
 	}, function (error, data) {
 		if (error) {
 			// implement error handling logic here
-			throw err;
+			throw error;
 		}
 		// your logic goes within this block
 	});
