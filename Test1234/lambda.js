@@ -1,36 +1,34 @@
 let AWS = require('aws-sdk');
 const cognito_idp = new AWS.CognitoIdentityServiceProvider();
-
 exports.handler = function (event, context, callback) {
 	cognito_idp.adminCreateUser({
-		UserPoolId: "us-east-1_mlPs9w6gg",
+		UserPoolId: "us-east-1_KtFzugXbq",
 
 		/* required */
-		Username: "",
+		Username: "jkxsdjhsd",
 
 		/* required */
 		DesiredDeliveryMediums: ["SMS"],
 		//[SMS | EMAIL,/* more items */],
 		ForceAliasCreation: false,
 		MessageAction: "RESEND",
-		TemporaryPassword: "xsscxcscfc",
+		TemporaryPassword: "kjjsdsfddf",
 		UserAttributes: [{
-			sub: 'sdsdsd'
+			Name: 'sub',
+			Value: 'sjhkjhsdjhsd'
 		}, {
-			given_name: 'sdsdsd'
+			Name: 'given_name',
+			Value: 'dffsdf'
 		}, {
-			family_name: 'sdsdsd'
+			Name: 'family_name',
+			Value: 'dfsdfsdf'
 		}, {
-			email: 'sdsd'
-		}, {
-			name: 'xcxxcxccvxcv'
-		}, {
-			middle_name: 'zxzxxccxc'
-		}, {
-			nickname: 'xcxcxcxc'
+			Name: 'email',
+			Value: 'sdfsdfsdf'
 		}],
 		ValidationData: [{
-			Acton: 'csccxxccx'
+			Name: 'xsssdd',
+			Value: 'sdsd'
 		}]
 	}, function (error, data) {
 		if (error) {
