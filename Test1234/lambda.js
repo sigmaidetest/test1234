@@ -21,7 +21,7 @@ exports.handler = function (event, context, callback) {
 			Value: 'dfsdfsdf'
 		}, {
 			Name: 'email',
-			Value: 'sdfsdfsdf'
+			Value: 'amilak@adroitlogic.com'
 		}],
 		ValidationData: [{
 			Name: 'xsssdd',
