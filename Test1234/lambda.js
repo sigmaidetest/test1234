@@ -14,9 +14,6 @@ exports.handler = function (event, context, callback) {
 		MessageAction: "RESEND",
 		TemporaryPassword: "kjjsdsfddf",
 		UserAttributes: [{
-			Name: 'sub',
-			Value: 'sjhkjhsdjhsd'
-		}, {
 			Name: 'given_name',
 			Value: 'dffsdf'
 		}, {
