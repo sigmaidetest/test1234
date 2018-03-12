@@ -5,7 +5,7 @@ exports.handler = function (event, context, callback) {
 		UserPoolId: "us-east-1_KtFzugXbq",
 
 		/* required */
-		Username: "jkxsdjhsd",
+		Username: "jkxsdjhsdssdsd",
 
 		/* required */
 		DesiredDeliveryMediums: ["SMS"],
