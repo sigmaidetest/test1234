@@ -12,7 +12,7 @@ exports.handler = function (event, context, callback) {
 		//[SMS | EMAIL,/* more items */],
 		ForceAliasCreation: false,
 		MessageAction: "SUPPRESS",
-		TemporaryPassword: "kjjsdsfddf",
+		TemporaryPassword: "kjjsdsfddfA123#",
 		UserAttributes: [{
 			Name: 'given_name',
 			Value: 'dffsdf'
